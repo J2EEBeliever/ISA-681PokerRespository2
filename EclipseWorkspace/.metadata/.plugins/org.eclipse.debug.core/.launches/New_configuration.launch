@@ -10,6 +10,6 @@
 <booleanAttribute key="org.eclipse.jdt.launching.DEFAULT_CLASSPATH" value="false"/>
 <stringAttribute key="org.eclipse.jdt.launching.JRE_CONTAINER" value="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jdk1.8.0_60"/>
 <stringAttribute key="org.eclipse.jdt.launching.PROGRAM_ARGUMENTS" value="start"/>
-<stringAttribute key="org.eclipse.jdt.launching.VM_ARGUMENTS" value="-Dcatalina.base=&quot;C:\ISA-681_GitHub\GitHub\ISA-681_FiveCardStudPoker_GitHub_Respository\EclipseWorkspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0&quot; -Dcatalina.home=&quot;C:\apache-tomcat-8.0.27&quot; -Dwtp.deploy=&quot;C:\ISA-681_GitHub\GitHub\ISA-681_FiveCardStudPoker_GitHub_Respository\EclipseWorkspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps&quot; -Djava.endorsed.dirs=&quot;C:\apache-tomcat-8.0.27\endorsed&quot;"/>
+<stringAttribute key="org.eclipse.jdt.launching.VM_ARGUMENTS" value="-Dcatalina.base=&quot;C:\ISA-681_GitHub\GitHub\ISA-681PokerRespository\EclipseWorkspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0&quot; -Dcatalina.home=&quot;C:\apache-tomcat-8.0.27&quot; -Dwtp.deploy=&quot;C:\ISA-681_GitHub\GitHub\ISA-681PokerRespository\EclipseWorkspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps&quot; -Djava.endorsed.dirs=&quot;C:\apache-tomcat-8.0.27\endorsed&quot;&#13;&#10;-Dlog4j.config=log4j.properties&#13;&#10;-Dlog4j.configuration=log4j.properties"/>
 <stringAttribute key="server-id" value="Tomcat v8.0 Server at localhost"/>
 </launchConfiguration>

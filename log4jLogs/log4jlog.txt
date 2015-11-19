@@ -1,0 +1,299 @@
+2015-11-19 15:07:11 DEBUG DefaultFileManagerFactory:76 - Found following implementations of FileManager interface: [system, jboss]
+2015-11-19 15:07:11 DEBUG DefaultFileManagerFactory:76 - No user defined FileManager, looking up for internal implementations!
+2015-11-19 15:07:11 DEBUG JBossFileManager:76 - Cannot load [org.jboss.vfs.VirtualFile] class, not a JBoss 7!
+2015-11-19 15:07:11 DEBUG JBossFileManager:76 - Cannot load [org.jboss.virtual.VirtualFile] class, not a JBoss 5!
+2015-11-19 15:07:11 DEBUG DefaultFileManagerFactory:76 - Using default implementation of FileManager provided under name [system]: DefaultFileManager
+2015-11-19 15:07:11 DEBUG DefaultFileManagerFactory:76 - Found following implementations of FileManager interface: [system, jboss]
+2015-11-19 15:07:11 DEBUG DefaultFileManagerFactory:76 - No user defined FileManager, looking up for internal implementations!
+2015-11-19 15:07:11 DEBUG JBossFileManager:76 - Cannot load [org.jboss.vfs.VirtualFile] class, not a JBoss 7!
+2015-11-19 15:07:11 DEBUG JBossFileManager:76 - Cannot load [org.jboss.virtual.VirtualFile] class, not a JBoss 5!
+2015-11-19 15:07:11 DEBUG DefaultFileManagerFactory:76 - Using default implementation of FileManager provided under name [system]: DefaultFileManager
+2015-11-19 15:07:11 DEBUG DefaultFileManagerFactory:76 - Found following implementations of FileManager interface: [system, jboss]
+2015-11-19 15:07:11 DEBUG DefaultFileManagerFactory:76 - No user defined FileManager, looking up for internal implementations!
+2015-11-19 15:07:11 DEBUG JBossFileManager:76 - Cannot load [org.jboss.vfs.VirtualFile] class, not a JBoss 7!
+2015-11-19 15:07:11 DEBUG JBossFileManager:76 - Cannot load [org.jboss.virtual.VirtualFile] class, not a JBoss 5!
+2015-11-19 15:07:11 DEBUG DefaultFileManagerFactory:76 - Using default implementation of FileManager provided under name [system]: DefaultFileManager
+2015-11-19 15:07:11 DEBUG XmlConfigurationProvider:76 - Loading action configurations from: struts-default.xml
+2015-11-19 15:07:11 DEBUG DefaultFileManager:76 - Creating revision for URL: jar:file:/C:/ISA-681_GitHub/GitHub/ISA-681PokerRespository/EclipseWorkspace/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/FiveCardStudPokerWithBetting/WEB-INF/lib/struts2-core-2.3.24.1.jar!/struts-default.xml
+2015-11-19 15:07:12 DEBUG XmlConfigurationProvider:76 - Loaded action configuration from: struts-default.xml
+2015-11-19 15:07:12 INFO  XmlConfigurationProvider:46 - Parsing configuration file [struts-default.xml]
+2015-11-19 15:07:12 DEBUG XmlConfigurationProvider:76 - Loaded type: name:struts impl:com.opensymphony.xwork2.ObjectFactory
+2015-11-19 15:07:12 DEBUG XmlConfigurationProvider:76 - Loaded type:com.opensymphony.xwork2.factory.ResultFactory name:struts impl:org.apache.struts2.factory.StrutsResultFactory
+2015-11-19 15:07:12 DEBUG XmlConfigurationProvider:76 - Loaded type:com.opensymphony.xwork2.factory.ActionFactory name:struts impl:com.opensymphony.xwork2.factory.DefaultActionFactory
+2015-11-19 15:07:12 DEBUG XmlConfigurationProvider:76 - Loaded type:com.opensymphony.xwork2.factory.ConverterFactory name:struts impl:com.opensymphony.xwork2.factory.DefaultConverterFactory
+2015-11-19 15:07:12 DEBUG XmlConfigurationProvider:76 - Loaded type:com.opensymphony.xwork2.factory.InterceptorFactory name:struts impl:com.opensymphony.xwork2.factory.DefaultInterceptorFactory
+2015-11-19 15:07:12 DEBUG XmlConfigurationProvider:76 - Loaded type:com.opensymphony.xwork2.factory.ValidatorFactory name:struts impl:com.opensymphony.xwork2.factory.DefaultValidatorFactory
+2015-11-19 15:07:12 DEBUG XmlConfigurationProvider:76 - Loaded type:com.opensymphony.xwork2.factory.UnknownHandlerFactory name:struts impl:com.opensymphony.xwork2.factory.DefaultUnknownHandlerFactory
+2015-11-19 15:07:12 DEBUG XmlConfigurationProvider:76 - Loaded type:com.opensymphony.xwork2.FileManager name:system impl:com.opensymphony.xwork2.util.fs.DefaultFileManager
+2015-11-19 15:07:12 DEBUG XmlConfigurationProvider:76 - Loaded type:com.opensymphony.xwork2.FileManagerFactory name:struts impl:com.opensymphony.xwork2.util.fs.DefaultFileManagerFactory
+2015-11-19 15:07:12 DEBUG XmlConfigurationProvider:76 - Loaded type:com.opensymphony.xwork2.ActionProxyFactory name:struts impl:org.apache.struts2.impl.StrutsActionProxyFactory
+2015-11-19 15:07:12 DEBUG XmlConfigurationProvider:76 - Loaded type:com.opensymphony.xwork2.ActionProxyFactory name:prefix impl:org.apache.struts2.impl.PrefixBasedActionProxyFactory
+2015-11-19 15:07:12 DEBUG XmlConfigurationProvider:76 - Loaded type:com.opensymphony.xwork2.conversion.ObjectTypeDeterminer name:struts impl:com.opensymphony.xwork2.conversion.impl.DefaultObjectTypeDeterminer
+2015-11-19 15:07:12 DEBUG XmlConfigurationProvider:76 - Loaded type:com.opensymphony.xwork2.util.PatternMatcher name:struts impl:com.opensymphony.xwork2.util.WildcardHelper
+2015-11-19 15:07:12 DEBUG XmlConfigurationProvider:76 - Loaded type:com.opensymphony.xwork2.util.PatternMatcher name:namedVariable impl:com.opensymphony.xwork2.util.NamedVariablePatternMatcher
+2015-11-19 15:07:12 DEBUG XmlConfigurationProvider:76 - Loaded type:com.opensymphony.xwork2.util.PatternMatcher name:regex impl:org.apache.struts2.util.RegexPatternMatcher
+2015-11-19 15:07:12 DEBUG XmlConfigurationProvider:76 - Loaded type:org.apache.struts2.util.ContentTypeMatcher name:struts impl:org.apache.struts2.util.DefaultContentTypeMatcher
+2015-11-19 15:07:12 DEBUG XmlConfigurationProvider:76 - Loaded type:org.apache.struts2.dispatcher.mapper.ActionMapper name:struts impl:org.apache.struts2.dispatcher.mapper.DefaultActionMapper
+2015-11-19 15:07:12 DEBUG XmlConfigurationProvider:76 - Loaded type:org.apache.struts2.dispatcher.mapper.ActionMapper name:composite impl:org.apache.struts2.dispatcher.mapper.CompositeActionMapper
+2015-11-19 15:07:12 DEBUG XmlConfigurationProvider:76 - Loaded type:org.apache.struts2.dispatcher.mapper.ActionMapper name:restful impl:org.apache.struts2.dispatcher.mapper.RestfulActionMapper
+2015-11-19 15:07:12 DEBUG XmlConfigurationProvider:76 - Loaded type:org.apache.struts2.dispatcher.mapper.ActionMapper name:restful2 impl:org.apache.struts2.dispatcher.mapper.Restful2ActionMapper
+2015-11-19 15:07:12 DEBUG XmlConfigurationProvider:76 - Loaded type:org.apache.struts2.dispatcher.multipart.MultiPartRequest name:jakarta impl:org.apache.struts2.dispatcher.multipart.JakartaMultiPartRequest
+2015-11-19 15:07:12 DEBUG XmlConfigurationProvider:76 - Loaded type:org.apache.struts2.dispatcher.multipart.MultiPartRequest name:jakarta-stream impl:org.apache.struts2.dispatcher.multipart.JakartaStreamMultiPartRequest
+2015-11-19 15:07:12 DEBUG XmlConfigurationProvider:76 - Loaded type:org.apache.struts2.views.TagLibraryDirectiveProvider name:s impl:org.apache.struts2.views.DefaultTagLibrary
+2015-11-19 15:07:12 DEBUG XmlConfigurationProvider:76 - Loaded type:org.apache.struts2.views.TagLibraryModelProvider name:s impl:org.apache.struts2.views.DefaultTagLibrary
+2015-11-19 15:07:12 DEBUG XmlConfigurationProvider:76 - Loaded type: name:default impl:org.apache.struts2.views.freemarker.FreemarkerThemeTemplateLoader
+2015-11-19 15:07:12 DEBUG XmlConfigurationProvider:76 - Loaded type: name:struts impl:org.apache.struts2.views.freemarker.FreemarkerManager
+2015-11-19 15:07:12 DEBUG XmlConfigurationProvider:76 - Unable to load optional class: org.apache.struts2.views.velocity.VelocityManager
+2015-11-19 15:07:12 DEBUG XmlConfigurationProvider:76 - Loaded type: name:default impl:org.apache.struts2.components.template.TemplateEngineManager
+2015-11-19 15:07:12 DEBUG XmlConfigurationProvider:76 - Loaded type:org.apache.struts2.components.template.TemplateEngine name:ftl impl:org.apache.struts2.components.template.FreemarkerTemplateEngine
+2015-11-19 15:07:12 DEBUG XmlConfigurationProvider:76 - Loaded type:org.apache.struts2.components.template.TemplateEngine name:vm impl:org.apache.struts2.components.template.VelocityTemplateEngine
+2015-11-19 15:07:12 DEBUG XmlConfigurationProvider:76 - Loaded type:org.apache.struts2.components.template.TemplateEngine name:jsp impl:org.apache.struts2.components.template.JspTemplateEngine
+2015-11-19 15:07:12 DEBUG XmlConfigurationProvider:76 - Loaded type:com.opensymphony.xwork2.conversion.impl.XWorkConverter name:struts impl:com.opensymphony.xwork2.conversion.impl.XWorkConverter
+2015-11-19 15:07:12 DEBUG XmlConfigurationProvider:76 - Loaded type:com.opensymphony.xwork2.conversion.ConversionPropertiesProcessor name:struts impl:com.opensymphony.xwork2.conversion.impl.DefaultConversionPropertiesProcessor
+2015-11-19 15:07:12 DEBUG XmlConfigurationProvider:76 - Loaded type:com.opensymphony.xwork2.conversion.ConversionFileProcessor name:struts impl:com.opensymphony.xwork2.conversion.impl.DefaultConversionFileProcessor
+2015-11-19 15:07:12 DEBUG XmlConfigurationProvider:76 - Loaded type:com.opensymphony.xwork2.conversion.ConversionAnnotationProcessor name:struts impl:com.opensymphony.xwork2.conversion.impl.DefaultConversionAnnotationProcessor
+2015-11-19 15:07:12 DEBUG XmlConfigurationProvider:76 - Loaded type:com.opensymphony.xwork2.conversion.TypeConverterCreator name:struts impl:com.opensymphony.xwork2.conversion.impl.DefaultTypeConverterCreator
+2015-11-19 15:07:12 DEBUG XmlConfigurationProvider:76 - Loaded type:com.opensymphony.xwork2.conversion.TypeConverterHolder name:struts impl:com.opensymphony.xwork2.conversion.impl.DefaultTypeConverterHolder
+2015-11-19 15:07:12 DEBUG XmlConfigurationProvider:76 - Loaded type: name:default impl:com.opensymphony.xwork2.conversion.impl.XWorkBasicConverter
+2015-11-19 15:07:12 DEBUG XmlConfigurationProvider:76 - Loaded type:com.opensymphony.xwork2.conversion.impl.CollectionConverter name:struts impl:com.opensymphony.xwork2.conversion.impl.CollectionConverter
+2015-11-19 15:07:12 DEBUG XmlConfigurationProvider:76 - Loaded type:com.opensymphony.xwork2.conversion.impl.ArrayConverter name:struts impl:com.opensymphony.xwork2.conversion.impl.ArrayConverter
+2015-11-19 15:07:12 DEBUG XmlConfigurationProvider:76 - Loaded type:com.opensymphony.xwork2.conversion.impl.DateConverter name:struts impl:com.opensymphony.xwork2.conversion.impl.DateConverter
+2015-11-19 15:07:12 DEBUG XmlConfigurationProvider:76 - Loaded type:com.opensymphony.xwork2.conversion.impl.NumberConverter name:struts impl:com.opensymphony.xwork2.conversion.impl.NumberConverter
+2015-11-19 15:07:12 DEBUG XmlConfigurationProvider:76 - Loaded type:com.opensymphony.xwork2.conversion.impl.StringConverter name:struts impl:com.opensymphony.xwork2.conversion.impl.StringConverter
+2015-11-19 15:07:12 DEBUG XmlConfigurationProvider:76 - Loaded type:com.opensymphony.xwork2.TextProvider name:struts impl:com.opensymphony.xwork2.TextProviderSupport
+2015-11-19 15:07:12 DEBUG XmlConfigurationProvider:76 - Loaded type:com.opensymphony.xwork2.LocaleProvider name:struts impl:com.opensymphony.xwork2.DefaultLocaleProvider
+2015-11-19 15:07:12 DEBUG XmlConfigurationProvider:76 - Loaded type:org.apache.struts2.components.UrlRenderer name:struts impl:org.apache.struts2.components.ServletUrlRenderer
+2015-11-19 15:07:12 DEBUG XmlConfigurationProvider:76 - Loaded type:org.apache.struts2.views.util.UrlHelper name:struts impl:org.apache.struts2.views.util.DefaultUrlHelper
+2015-11-19 15:07:12 DEBUG XmlConfigurationProvider:76 - Loaded type:com.opensymphony.xwork2.util.ValueStackFactory name:struts impl:com.opensymphony.xwork2.ognl.OgnlValueStackFactory
+2015-11-19 15:07:12 DEBUG XmlConfigurationProvider:76 - Loaded type:com.opensymphony.xwork2.util.reflection.ReflectionProvider name:struts impl:com.opensymphony.xwork2.ognl.OgnlReflectionProvider
+2015-11-19 15:07:12 DEBUG XmlConfigurationProvider:76 - Loaded type:com.opensymphony.xwork2.util.reflection.ReflectionContextFactory name:struts impl:com.opensymphony.xwork2.ognl.OgnlReflectionContextFactory
+2015-11-19 15:07:12 DEBUG XmlConfigurationProvider:76 - Loaded type:com.opensymphony.xwork2.TextProvider name:system impl:com.opensymphony.xwork2.DefaultTextProvider
+2015-11-19 15:07:12 DEBUG XmlConfigurationProvider:76 - Loaded type:com.opensymphony.xwork2.conversion.NullHandler name:java.lang.Object impl:com.opensymphony.xwork2.conversion.impl.InstantiatingNullHandler
+2015-11-19 15:07:12 DEBUG XmlConfigurationProvider:76 - Loaded type:com.opensymphony.xwork2.validator.ActionValidatorManager name:struts impl:com.opensymphony.xwork2.validator.AnnotationActionValidatorManager
+2015-11-19 15:07:12 DEBUG XmlConfigurationProvider:76 - Loaded type:com.opensymphony.xwork2.validator.ActionValidatorManager name:no-annotations impl:com.opensymphony.xwork2.validator.DefaultActionValidatorManager
+2015-11-19 15:07:12 DEBUG XmlConfigurationProvider:76 - Loaded type:com.opensymphony.xwork2.validator.ValidatorFactory name:default impl:com.opensymphony.xwork2.validator.DefaultValidatorFactory
+2015-11-19 15:07:12 DEBUG XmlConfigurationProvider:76 - Loaded type:com.opensymphony.xwork2.validator.ValidatorFileParser name:default impl:com.opensymphony.xwork2.validator.DefaultValidatorFileParser
+2015-11-19 15:07:12 DEBUG XmlConfigurationProvider:76 - Loaded type: name:default impl:com.opensymphony.xwork2.ognl.OgnlUtil
+2015-11-19 15:07:12 DEBUG XmlConfigurationProvider:76 - Loaded type:com.opensymphony.xwork2.util.TextParser name:struts impl:com.opensymphony.xwork2.util.OgnlTextParser
+2015-11-19 15:07:12 DEBUG XmlConfigurationProvider:76 - Loaded type:ognl.PropertyAccessor name:com.opensymphony.xwork2.util.CompoundRoot impl:com.opensymphony.xwork2.ognl.accessor.CompoundRootAccessor
+2015-11-19 15:07:12 DEBUG XmlConfigurationProvider:76 - Loaded type:ognl.PropertyAccessor name:java.lang.Object impl:com.opensymphony.xwork2.ognl.accessor.ObjectAccessor
+2015-11-19 15:07:12 DEBUG XmlConfigurationProvider:76 - Loaded type:ognl.PropertyAccessor name:java.util.Iterator impl:com.opensymphony.xwork2.ognl.accessor.XWorkIteratorPropertyAccessor
+2015-11-19 15:07:12 DEBUG XmlConfigurationProvider:76 - Loaded type:ognl.PropertyAccessor name:java.util.Enumeration impl:com.opensymphony.xwork2.ognl.accessor.XWorkEnumerationAccessor
+2015-11-19 15:07:12 DEBUG XmlConfigurationProvider:76 - Loaded type:ognl.PropertyAccessor name:java.util.List impl:com.opensymphony.xwork2.ognl.accessor.XWorkListPropertyAccessor
+2015-11-19 15:07:12 DEBUG XmlConfigurationProvider:76 - Loaded type:ognl.PropertyAccessor name:java.util.Set impl:com.opensymphony.xwork2.ognl.accessor.XWorkCollectionPropertyAccessor
+2015-11-19 15:07:12 DEBUG XmlConfigurationProvider:76 - Loaded type:ognl.PropertyAccessor name:java.util.Map impl:com.opensymphony.xwork2.ognl.accessor.XWorkMapPropertyAccessor
+2015-11-19 15:07:12 DEBUG XmlConfigurationProvider:76 - Loaded type:ognl.PropertyAccessor name:java.util.Collection impl:com.opensymphony.xwork2.ognl.accessor.XWorkCollectionPropertyAccessor
+2015-11-19 15:07:12 DEBUG XmlConfigurationProvider:76 - Loaded type:ognl.PropertyAccessor name:com.opensymphony.xwork2.ognl.ObjectProxy impl:com.opensymphony.xwork2.ognl.accessor.ObjectProxyPropertyAccessor
+2015-11-19 15:07:12 DEBUG XmlConfigurationProvider:76 - Loaded type:ognl.MethodAccessor name:java.lang.Object impl:com.opensymphony.xwork2.ognl.accessor.XWorkMethodAccessor
+2015-11-19 15:07:12 DEBUG XmlConfigurationProvider:76 - Loaded type:ognl.MethodAccessor name:com.opensymphony.xwork2.util.CompoundRoot impl:com.opensymphony.xwork2.ognl.accessor.CompoundRootAccessor
+2015-11-19 15:07:12 DEBUG XmlConfigurationProvider:76 - Loaded type: name:default impl:org.apache.struts2.views.jsp.ui.OgnlTool
+2015-11-19 15:07:12 DEBUG XmlConfigurationProvider:76 - Loaded type:org.apache.struts2.dispatcher.StaticContentLoader name:struts impl:org.apache.struts2.dispatcher.DefaultStaticContentLoader
+2015-11-19 15:07:12 DEBUG XmlConfigurationProvider:76 - Loaded type:com.opensymphony.xwork2.UnknownHandlerManager name:struts impl:com.opensymphony.xwork2.DefaultUnknownHandlerManager
+2015-11-19 15:07:12 DEBUG XmlConfigurationProvider:76 - Loaded type:org.apache.struts2.dispatcher.DispatcherErrorHandler name:struts impl:org.apache.struts2.dispatcher.DefaultDispatcherErrorHandler
+2015-11-19 15:07:12 DEBUG XmlConfigurationProvider:76 - Loaded type:ognl.PropertyAccessor name:java.util.ArrayList impl:com.opensymphony.xwork2.ognl.accessor.XWorkListPropertyAccessor
+2015-11-19 15:07:12 DEBUG XmlConfigurationProvider:76 - Loaded type:ognl.PropertyAccessor name:java.util.HashSet impl:com.opensymphony.xwork2.ognl.accessor.XWorkCollectionPropertyAccessor
+2015-11-19 15:07:12 DEBUG XmlConfigurationProvider:76 - Loaded type:ognl.PropertyAccessor name:java.util.HashMap impl:com.opensymphony.xwork2.ognl.accessor.XWorkMapPropertyAccessor
+2015-11-19 15:07:12 DEBUG XmlConfigurationProvider:76 - Loaded type:com.opensymphony.xwork2.security.ExcludedPatternsChecker name:struts impl:com.opensymphony.xwork2.security.DefaultExcludedPatternsChecker
+2015-11-19 15:07:12 DEBUG XmlConfigurationProvider:76 - Loaded type:com.opensymphony.xwork2.security.AcceptedPatternsChecker name:struts impl:com.opensymphony.xwork2.security.DefaultAcceptedPatternsChecker
+2015-11-19 15:07:12 DEBUG DefaultFileManagerFactory:76 - Found following implementations of FileManager interface: [system, jboss]
+2015-11-19 15:07:12 DEBUG DefaultFileManagerFactory:76 - No user defined FileManager, looking up for internal implementations!
+2015-11-19 15:07:12 DEBUG JBossFileManager:76 - Cannot load [org.jboss.vfs.VirtualFile] class, not a JBoss 7!
+2015-11-19 15:07:12 DEBUG JBossFileManager:76 - Cannot load [org.jboss.virtual.VirtualFile] class, not a JBoss 5!
+2015-11-19 15:07:12 DEBUG DefaultFileManagerFactory:76 - Using default implementation of FileManager provided under name [system]: DefaultFileManager
+2015-11-19 15:07:12 DEBUG XmlConfigurationProvider:76 - Loading action configurations from: struts-plugin.xml
+2015-11-19 15:07:12 INFO  XmlConfigurationProvider:46 - Unable to locate configuration files of the name struts-plugin.xml, skipping
+2015-11-19 15:07:12 INFO  XmlConfigurationProvider:46 - Parsing configuration file [struts-plugin.xml]
+2015-11-19 15:07:12 DEBUG DefaultFileManagerFactory:76 - Found following implementations of FileManager interface: [system, jboss]
+2015-11-19 15:07:12 DEBUG DefaultFileManagerFactory:76 - No user defined FileManager, looking up for internal implementations!
+2015-11-19 15:07:12 DEBUG JBossFileManager:76 - Cannot load [org.jboss.vfs.VirtualFile] class, not a JBoss 7!
+2015-11-19 15:07:12 DEBUG JBossFileManager:76 - Cannot load [org.jboss.virtual.VirtualFile] class, not a JBoss 5!
+2015-11-19 15:07:12 DEBUG DefaultFileManagerFactory:76 - Using default implementation of FileManager provided under name [system]: DefaultFileManager
+2015-11-19 15:07:12 DEBUG XmlConfigurationProvider:76 - Loading action configurations from: struts.xml
+2015-11-19 15:07:12 DEBUG DefaultFileManager:76 - Creating revision for URL: file:/C:/ISA-681_GitHub/GitHub/ISA-681PokerRespository/EclipseWorkspace/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/FiveCardStudPokerWithBetting/WEB-INF/classes/struts.xml
+2015-11-19 15:07:12 DEBUG XmlConfigurationProvider:76 - Loaded action configuration from: struts.xml
+2015-11-19 15:07:12 INFO  XmlConfigurationProvider:46 - Parsing configuration file [struts.xml]
+2015-11-19 15:07:12 DEBUG PropertiesSettings:76 - struts.properties missing
+2015-11-19 15:07:12 INFO  AbstractBeanSelectionProvider:46 - Choosing bean (struts) for (com.opensymphony.xwork2.ObjectFactory)
+2015-11-19 15:07:12 INFO  AbstractBeanSelectionProvider:46 - Choosing bean (struts) for (com.opensymphony.xwork2.factory.ActionFactory)
+2015-11-19 15:07:12 INFO  AbstractBeanSelectionProvider:46 - Choosing bean (struts) for (com.opensymphony.xwork2.factory.ResultFactory)
+2015-11-19 15:07:12 INFO  AbstractBeanSelectionProvider:46 - Choosing bean (struts) for (com.opensymphony.xwork2.factory.ConverterFactory)
+2015-11-19 15:07:12 INFO  AbstractBeanSelectionProvider:46 - Choosing bean (struts) for (com.opensymphony.xwork2.factory.InterceptorFactory)
+2015-11-19 15:07:12 INFO  AbstractBeanSelectionProvider:46 - Choosing bean (struts) for (com.opensymphony.xwork2.factory.ValidatorFactory)
+2015-11-19 15:07:12 INFO  AbstractBeanSelectionProvider:46 - Choosing bean (struts) for (com.opensymphony.xwork2.factory.UnknownHandlerFactory)
+2015-11-19 15:07:12 INFO  AbstractBeanSelectionProvider:46 - Choosing bean (struts) for (com.opensymphony.xwork2.FileManagerFactory)
+2015-11-19 15:07:12 INFO  AbstractBeanSelectionProvider:46 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.XWorkConverter)
+2015-11-19 15:07:12 INFO  AbstractBeanSelectionProvider:46 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.CollectionConverter)
+2015-11-19 15:07:12 INFO  AbstractBeanSelectionProvider:46 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.ArrayConverter)
+2015-11-19 15:07:12 INFO  AbstractBeanSelectionProvider:46 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.DateConverter)
+2015-11-19 15:07:12 INFO  AbstractBeanSelectionProvider:46 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.NumberConverter)
+2015-11-19 15:07:12 INFO  AbstractBeanSelectionProvider:46 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.StringConverter)
+2015-11-19 15:07:12 INFO  AbstractBeanSelectionProvider:46 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ConversionPropertiesProcessor)
+2015-11-19 15:07:12 INFO  AbstractBeanSelectionProvider:46 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ConversionFileProcessor)
+2015-11-19 15:07:12 INFO  AbstractBeanSelectionProvider:46 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ConversionAnnotationProcessor)
+2015-11-19 15:07:12 INFO  AbstractBeanSelectionProvider:46 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.TypeConverterCreator)
+2015-11-19 15:07:12 INFO  AbstractBeanSelectionProvider:46 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.TypeConverterHolder)
+2015-11-19 15:07:12 INFO  AbstractBeanSelectionProvider:46 - Choosing bean (struts) for (com.opensymphony.xwork2.TextProvider)
+2015-11-19 15:07:12 INFO  AbstractBeanSelectionProvider:46 - Choosing bean (struts) for (com.opensymphony.xwork2.LocaleProvider)
+2015-11-19 15:07:12 INFO  AbstractBeanSelectionProvider:46 - Choosing bean (struts) for (com.opensymphony.xwork2.ActionProxyFactory)
+2015-11-19 15:07:12 INFO  AbstractBeanSelectionProvider:46 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ObjectTypeDeterminer)
+2015-11-19 15:07:12 INFO  AbstractBeanSelectionProvider:46 - Choosing bean (struts) for (org.apache.struts2.dispatcher.mapper.ActionMapper)
+2015-11-19 15:07:12 INFO  AbstractBeanSelectionProvider:46 - Choosing bean (jakarta) for (org.apache.struts2.dispatcher.multipart.MultiPartRequest)
+2015-11-19 15:07:12 INFO  AbstractBeanSelectionProvider:46 - Choosing bean (struts) for (org.apache.struts2.views.freemarker.FreemarkerManager)
+2015-11-19 15:07:12 DEBUG AbstractBeanSelectionProvider:76 - Choosing bean (struts) for (org.apache.struts2.views.velocity.VelocityManager) to be loaded from the ObjectFactory
+2015-11-19 15:07:12 INFO  AbstractBeanSelectionProvider:46 - Choosing bean (struts) for (org.apache.struts2.components.UrlRenderer)
+2015-11-19 15:07:12 INFO  AbstractBeanSelectionProvider:46 - Choosing bean (struts) for (com.opensymphony.xwork2.validator.ActionValidatorManager)
+2015-11-19 15:07:12 INFO  AbstractBeanSelectionProvider:46 - Choosing bean (struts) for (com.opensymphony.xwork2.util.ValueStackFactory)
+2015-11-19 15:07:12 INFO  AbstractBeanSelectionProvider:46 - Choosing bean (struts) for (com.opensymphony.xwork2.util.reflection.ReflectionProvider)
+2015-11-19 15:07:12 INFO  AbstractBeanSelectionProvider:46 - Choosing bean (struts) for (com.opensymphony.xwork2.util.reflection.ReflectionContextFactory)
+2015-11-19 15:07:12 INFO  AbstractBeanSelectionProvider:46 - Choosing bean (struts) for (com.opensymphony.xwork2.util.PatternMatcher)
+2015-11-19 15:07:12 INFO  AbstractBeanSelectionProvider:46 - Choosing bean (struts) for (org.apache.struts2.util.ContentTypeMatcher)
+2015-11-19 15:07:12 INFO  AbstractBeanSelectionProvider:46 - Choosing bean (struts) for (org.apache.struts2.dispatcher.StaticContentLoader)
+2015-11-19 15:07:12 INFO  AbstractBeanSelectionProvider:46 - Choosing bean (struts) for (com.opensymphony.xwork2.UnknownHandlerManager)
+2015-11-19 15:07:12 INFO  AbstractBeanSelectionProvider:46 - Choosing bean (struts) for (org.apache.struts2.views.util.UrlHelper)
+2015-11-19 15:07:12 INFO  AbstractBeanSelectionProvider:46 - Choosing bean (struts) for (com.opensymphony.xwork2.util.TextParser)
+2015-11-19 15:07:12 INFO  AbstractBeanSelectionProvider:46 - Choosing bean (struts) for (org.apache.struts2.dispatcher.DispatcherErrorHandler)
+2015-11-19 15:07:12 INFO  AbstractBeanSelectionProvider:46 - Choosing bean (struts) for (com.opensymphony.xwork2.security.ExcludedPatternsChecker)
+2015-11-19 15:07:12 INFO  AbstractBeanSelectionProvider:46 - Choosing bean (struts) for (com.opensymphony.xwork2.security.AcceptedPatternsChecker)
+2015-11-19 15:07:12 DEBUG LocalizedTextUtil:76 - Added default resource bundle '{}' to default resource bundles for the following classloader '{}'
+2015-11-19 15:07:12 DEBUG DefaultFileManagerFactory:76 - Found following implementations of FileManager interface: [system, jboss]
+2015-11-19 15:07:12 DEBUG DefaultFileManagerFactory:76 - No user defined FileManager, looking up for internal implementations!
+2015-11-19 15:07:12 DEBUG JBossFileManager:76 - Cannot load [org.jboss.vfs.VirtualFile] class, not a JBoss 7!
+2015-11-19 15:07:12 DEBUG JBossFileManager:76 - Cannot load [org.jboss.virtual.VirtualFile] class, not a JBoss 5!
+2015-11-19 15:07:12 DEBUG DefaultFileManagerFactory:76 - Using default implementation of FileManager provided under name [system]: DefaultFileManager
+2015-11-19 15:07:12 DEBUG DefaultFileManagerFactory:76 - Found following implementations of FileManager interface: [system, jboss]
+2015-11-19 15:07:12 DEBUG DefaultFileManagerFactory:76 - No user defined FileManager, looking up for internal implementations!
+2015-11-19 15:07:12 DEBUG JBossFileManager:76 - Cannot load [org.jboss.vfs.VirtualFile] class, not a JBoss 7!
+2015-11-19 15:07:12 DEBUG JBossFileManager:76 - Cannot load [org.jboss.virtual.VirtualFile] class, not a JBoss 5!
+2015-11-19 15:07:12 DEBUG DefaultFileManagerFactory:76 - Using default implementation of FileManager provided under name [system]: DefaultFileManager
+2015-11-19 15:07:12 DEBUG DefaultFileManagerFactory:76 - Found following implementations of FileManager interface: [system, jboss]
+2015-11-19 15:07:12 DEBUG DefaultFileManagerFactory:76 - No user defined FileManager, looking up for internal implementations!
+2015-11-19 15:07:12 DEBUG JBossFileManager:76 - Cannot load [org.jboss.vfs.VirtualFile] class, not a JBoss 7!
+2015-11-19 15:07:12 DEBUG JBossFileManager:76 - Cannot load [org.jboss.virtual.VirtualFile] class, not a JBoss 5!
+2015-11-19 15:07:12 DEBUG DefaultFileManagerFactory:76 - Using default implementation of FileManager provided under name [system]: DefaultFileManager
+2015-11-19 15:07:12 DEBUG XmlConfigurationProvider:76 - Loaded [BUILDER] PackageConfig: [struts-default] for namespace [] with parents [[]]
+2015-11-19 15:07:12 DEBUG DefaultFileManagerFactory:76 - Found following implementations of FileManager interface: [system, jboss]
+2015-11-19 15:07:12 DEBUG DefaultFileManagerFactory:76 - No user defined FileManager, looking up for internal implementations!
+2015-11-19 15:07:12 DEBUG JBossFileManager:76 - Cannot load [org.jboss.vfs.VirtualFile] class, not a JBoss 7!
+2015-11-19 15:07:12 DEBUG JBossFileManager:76 - Cannot load [org.jboss.virtual.VirtualFile] class, not a JBoss 5!
+2015-11-19 15:07:12 DEBUG DefaultFileManagerFactory:76 - Using default implementation of FileManager provided under name [system]: DefaultFileManager
+2015-11-19 15:07:12 DEBUG DefaultValidatorFactory:76 - Loading validator definitions.
+2015-11-19 15:07:12 DEBUG I18nInterceptor:76 - new I18nInterceptor()
+2015-11-19 15:07:12 DEBUG I18nInterceptor:76 - new I18nInterceptor()
+2015-11-19 15:07:12 DEBUG I18nInterceptor:76 - new I18nInterceptor()
+2015-11-19 15:07:12 DEBUG DefaultFileManagerFactory:76 - Found following implementations of FileManager interface: [system, jboss]
+2015-11-19 15:07:12 DEBUG DefaultFileManagerFactory:76 - No user defined FileManager, looking up for internal implementations!
+2015-11-19 15:07:12 DEBUG JBossFileManager:76 - Cannot load [org.jboss.vfs.VirtualFile] class, not a JBoss 7!
+2015-11-19 15:07:12 DEBUG JBossFileManager:76 - Cannot load [org.jboss.virtual.VirtualFile] class, not a JBoss 5!
+2015-11-19 15:07:12 DEBUG DefaultFileManagerFactory:76 - Using default implementation of FileManager provided under name [system]: DefaultFileManager
+2015-11-19 15:07:12 DEBUG DefaultFileManagerFactory:76 - Found following implementations of FileManager interface: [system, jboss]
+2015-11-19 15:07:12 DEBUG DefaultFileManagerFactory:76 - No user defined FileManager, looking up for internal implementations!
+2015-11-19 15:07:12 DEBUG JBossFileManager:76 - Cannot load [org.jboss.vfs.VirtualFile] class, not a JBoss 7!
+2015-11-19 15:07:12 DEBUG JBossFileManager:76 - Cannot load [org.jboss.virtual.VirtualFile] class, not a JBoss 5!
+2015-11-19 15:07:12 DEBUG DefaultFileManagerFactory:76 - Using default implementation of FileManager provided under name [system]: DefaultFileManager
+2015-11-19 15:07:12 DEBUG DefaultFileManagerFactory:76 - Found following implementations of FileManager interface: [system, jboss]
+2015-11-19 15:07:12 DEBUG DefaultFileManagerFactory:76 - No user defined FileManager, looking up for internal implementations!
+2015-11-19 15:07:12 DEBUG JBossFileManager:76 - Cannot load [org.jboss.vfs.VirtualFile] class, not a JBoss 7!
+2015-11-19 15:07:12 DEBUG JBossFileManager:76 - Cannot load [org.jboss.virtual.VirtualFile] class, not a JBoss 5!
+2015-11-19 15:07:12 DEBUG DefaultFileManagerFactory:76 - Using default implementation of FileManager provided under name [system]: DefaultFileManager
+2015-11-19 15:07:12 DEBUG XmlConfigurationProvider:76 - Loaded [BUILDER] PackageConfig: [helloworld] for namespace [] with parents [[PackageConfig: [struts-default] for namespace [] with parents [[]]]]
+2015-11-19 15:07:12 DEBUG XmlConfigurationProvider:76 - Loaded hello in 'helloworld' package:{ActionConfig hello (com.tutorialspoint.struts2.HelloWorldAction.execute()) - action - file:/C:/ISA-681_GitHub/GitHub/ISA-681PokerRespository/EclipseWorkspace/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/FiveCardStudPokerWithBetting/WEB-INF/classes/struts.xml:11:30}
+2015-11-19 15:07:12 DEBUG FreemarkerManager:76 - Using object wrapper of class org.apache.struts2.views.freemarker.StrutsBeanWrapper
+2015-11-19 15:07:12 DEBUG cache:45 - Couldn't find template in cache for "org/apache/struts2/dispatcher/error.ftl"("en_US", UTF-8, parsed); will try to load it.
+2015-11-19 15:07:12 DEBUG cache:45 - TemplateLoader.findTemplateSource("org/apache/struts2/dispatcher/error.ftl"): Found
+2015-11-19 15:07:12 DEBUG cache:45 - Loading template for "org/apache/struts2/dispatcher/error.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/ISA-681_GitHub/GitHub/ISA-681PokerRespository/EclipseWorkspace/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/FiveCardStudPokerWithBetting/WEB-INF/lib/struts2-core-2.3.24.1.jar!/org/apache/struts2/dispatcher/error.ftl"
+2015-11-19 15:07:28 DEBUG ConfigurationManager:76 - Checking ConfigurationProviders for reload.
+2015-11-19 15:07:28 DEBUG ConfigurationManager:76 - Updating [reloadXmlConfiguration], current value is [true], new value [true]
+2015-11-19 15:07:28 DEBUG InstantiatingNullHandler:76 - Entering nullPropertyValue [target=[com.opensymphony.xwork2.DefaultTextProvider@343ba6], property=org]
+2015-11-19 15:07:32 DEBUG ConfigurationManager:76 - Checking ConfigurationProviders for reload.
+2015-11-19 15:07:32 DEBUG ConfigurationManager:76 - Updating [reloadXmlConfiguration], current value is [true], new value [true]
+2015-11-19 15:07:32 DEBUG InstantiatingNullHandler:76 - Entering nullPropertyValue [target=[com.opensymphony.xwork2.DefaultTextProvider@343ba6], property=struts]
+2015-11-19 15:07:32 DEBUG DefaultActionProxy:76 - Creating an DefaultActionProxy for namespace [/] and action name [hello]
+2015-11-19 15:07:32 DEBUG I18nInterceptor:76 - intercept '//hello' {
+2015-11-19 15:07:32 DEBUG I18nInterceptor:80 - applied invocation context locale=en_US
+2015-11-19 15:07:32 DEBUG InstantiatingNullHandler:76 - Entering nullPropertyValue [target=[com.tutorialspoint.struts2.HelloWorldAction@61526999, com.opensymphony.xwork2.DefaultTextProvider@343ba6], property=locale]
+2015-11-19 15:07:32 DEBUG I18nInterceptor:80 - before Locale=(null)
+2015-11-19 15:07:32 DEBUG InstantiatingNullHandler:76 - Entering nullPropertyValue [target=[com.tutorialspoint.struts2.HelloWorldAction@61526999, com.opensymphony.xwork2.DefaultTextProvider@343ba6], property=struts]
+2015-11-19 15:07:32 DEBUG LocalizedTextUtil:84 - Base class org.apache.catalina.loader.WebappClassLoader doesn't contain 'resourceEntries' field, trying with parent!
+java.lang.NoSuchFieldException: resourceEntries
+	at java.lang.Class.getDeclaredField(Class.java:2070)
+	at com.opensymphony.xwork2.util.LocalizedTextUtil.clearMap(LocalizedTextUtil.java:874)
+	at com.opensymphony.xwork2.util.LocalizedTextUtil.clearTomcatCache(LocalizedTextUtil.java:844)
+	at com.opensymphony.xwork2.util.LocalizedTextUtil.reloadBundles(LocalizedTextUtil.java:823)
+	at com.opensymphony.xwork2.util.LocalizedTextUtil.reloadBundles(LocalizedTextUtil.java:799)
+	at com.opensymphony.xwork2.util.LocalizedTextUtil.findDefaultText(LocalizedTextUtil.java:216)
+	at com.opensymphony.xwork2.util.LocalizedTextUtil.getDefaultMessage(LocalizedTextUtil.java:668)
+	at com.opensymphony.xwork2.util.LocalizedTextUtil.findText(LocalizedTextUtil.java:544)
+	at com.opensymphony.xwork2.util.LocalizedTextUtil.findText(LocalizedTextUtil.java:372)
+	at com.opensymphony.xwork2.TextProviderSupport.getText(TextProviderSupport.java:229)
+	at com.opensymphony.xwork2.TextProviderSupport.getText(TextProviderSupport.java:189)
+	at org.apache.struts2.interceptor.FileUploadInterceptor.getTextMessage(FileUploadInterceptor.java:446)
+	at org.apache.struts2.interceptor.FileUploadInterceptor.getTextMessage(FileUploadInterceptor.java:439)
+	at org.apache.struts2.interceptor.FileUploadInterceptor.intercept(FileUploadInterceptor.java:250)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:244)
+	at com.opensymphony.xwork2.interceptor.ModelDrivenInterceptor.intercept(ModelDrivenInterceptor.java:100)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:244)
+	at com.opensymphony.xwork2.interceptor.ScopedModelDrivenInterceptor.intercept(ScopedModelDrivenInterceptor.java:141)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:244)
+	at com.opensymphony.xwork2.interceptor.ChainingInterceptor.intercept(ChainingInterceptor.java:145)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:244)
+	at com.opensymphony.xwork2.interceptor.PrepareInterceptor.doIntercept(PrepareInterceptor.java:171)
+	at com.opensymphony.xwork2.interceptor.MethodFilterInterceptor.intercept(MethodFilterInterceptor.java:98)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:244)
+	at com.opensymphony.xwork2.interceptor.I18nInterceptor.intercept(I18nInterceptor.java:139)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:244)
+	at org.apache.struts2.interceptor.ServletConfigInterceptor.intercept(ServletConfigInterceptor.java:164)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:244)
+	at com.opensymphony.xwork2.interceptor.AliasInterceptor.intercept(AliasInterceptor.java:193)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:244)
+	at com.opensymphony.xwork2.interceptor.ExceptionMappingInterceptor.intercept(ExceptionMappingInterceptor.java:189)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:244)
+	at org.apache.struts2.impl.StrutsActionProxy.execute(StrutsActionProxy.java:54)
+	at org.apache.struts2.dispatcher.Dispatcher.serviceAction(Dispatcher.java:564)
+	at org.apache.struts2.dispatcher.FilterDispatcher.doFilter(FilterDispatcher.java:434)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:217)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:502)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:142)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:616)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:518)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1091)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:673)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1500)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1456)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+2015-11-19 15:07:32 DEBUG LocalizedTextUtil:76 - Resource bundles reloaded
+2015-11-19 15:07:32 DEBUG FileUploadInterceptor:76 - Bypassing //hello
+2015-11-19 15:07:32 DEBUG StaticParametersInterceptor:76 - Setting static parameters {}
+2015-11-19 15:07:32 DEBUG ParametersInterceptor:76 - Setting params NONE
+2015-11-19 15:07:32 DEBUG ParametersInterceptor:76 - Setting params name => [ Linus ] 
+2015-11-19 15:07:32 DEBUG ParametersInterceptor:76 - Parameter [name] was accepted and will be appended to action!
+2015-11-19 15:07:32 DEBUG XWorkConverter:80 - Retrieving convert for class [class com.tutorialspoint.struts2.HelloWorldAction] and property [name]
+2015-11-19 15:07:32 DEBUG XWorkConverter:80 - Converter is null for property [name]. Mapping size [0]:
+2015-11-19 15:07:32 DEBUG XWorkConverter:76 - field-level type converter for property [name] = none found
+2015-11-19 15:07:32 DEBUG XWorkConverter:76 - global-level type converter for property [name] = none found
+2015-11-19 15:07:32 DEBUG XWorkConverter:76 - falling back to default type converter [com.opensymphony.xwork2.conversion.impl.XWorkBasicConverter@b5bbfd6]
+2015-11-19 15:07:32 DEBUG HelloWorldAction:30 - Debug: HelloWorldAction: setName(name)
+2015-11-19 15:07:32 INFO  HelloWorldAction:31 - Info: HelloWorldAction: setName(name)
+2015-11-19 15:07:32 DEBUG AnnotationValidationInterceptor:76 - Validating //hello with method execute.
+2015-11-19 15:07:32 DEBUG DefaultActionInvocation:76 - Executing action method = execute
+2015-11-19 15:07:32 DEBUG HelloWorldAction:13 - Debug: HelloWorldAction:  execute()
+2015-11-19 15:07:32 INFO  HelloWorldAction:14 - Info: HelloWorldAction: execute()
+2015-11-19 15:07:32 DEBUG ServletDispatcherResult:76 - Forwarding to location /HelloWorld.jsp
+2015-11-19 15:07:32 DEBUG InstantiatingNullHandler:76 - Entering nullPropertyValue [target=[com.tutorialspoint.struts2.HelloWorldAction@61526999, com.opensymphony.xwork2.DefaultTextProvider@343ba6], property=struts]
+2015-11-19 15:07:32 DEBUG InstantiatingNullHandler:76 - Entering nullPropertyValue [target=[com.tutorialspoint.struts2.HelloWorldAction@61526999, com.opensymphony.xwork2.DefaultTextProvider@343ba6], property=org]
+2015-11-19 15:07:32 DEBUG HelloWorldAction:22 - Debug: HelloWorldAction: getName()
+2015-11-19 15:07:32 INFO  HelloWorldAction:23 - Info: HelloWorldAction: getName()
+2015-11-19 15:07:32 DEBUG InstantiatingNullHandler:76 - Entering nullPropertyValue [target=[com.tutorialspoint.struts2.HelloWorldAction@61526999, com.opensymphony.xwork2.DefaultTextProvider@343ba6], property=locale]
+2015-11-19 15:07:32 DEBUG I18nInterceptor:80 - after Locale=(null)
+2015-11-19 15:07:32 DEBUG I18nInterceptor:76 - intercept } 
+2015-11-19 15:08:55 DEBUG ConfigurationManager:76 - Checking ConfigurationProviders for reload.
+2015-11-19 15:08:55 DEBUG ConfigurationManager:76 - Updating [reloadXmlConfiguration], current value is [true], new value [true]
+2015-11-19 15:08:55 DEBUG ConfigurationManager:76 - Checking ConfigurationProviders for reload.
+2015-11-19 15:08:55 DEBUG ConfigurationManager:76 - Updating [reloadXmlConfiguration], current value is [true], new value [true]
