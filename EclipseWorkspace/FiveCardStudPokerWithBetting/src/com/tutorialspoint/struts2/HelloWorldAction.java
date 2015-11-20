@@ -2,11 +2,33 @@ package com.tutorialspoint.struts2;
 
 import org.apache.log4j.Logger;
 
+import cipher.CipherUtils;;
+
 public class HelloWorldAction {
 
 	   private String name;
 	   
 		final static Logger log = Logger.getLogger(HelloWorldAction.class);
+				
+		public static void main(String[] args_) {
+			
+			String password = "password1";
+
+			log.debug("Debug: password = " + password);
+			
+			String encryptedPassword = CipherUtils.encrypt(password);
+			
+			log.debug("Debug: encryptedPassword = " + encryptedPassword);
+			
+			String unEncryptedPassword = CipherUtils.decrypt(encryptedPassword);
+			
+			log.debug("Debug: unEncryptedPassword = " + unEncryptedPassword);
+			
+			
+			
+			
+			
+		}
 
 	   public String execute() throws Exception {
 		   

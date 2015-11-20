@@ -297,3 +297,7 @@ java.lang.NoSuchFieldException: resourceEntries
 2015-11-19 15:08:55 DEBUG ConfigurationManager:76 - Updating [reloadXmlConfiguration], current value is [true], new value [true]
 2015-11-19 15:08:55 DEBUG ConfigurationManager:76 - Checking ConfigurationProviders for reload.
 2015-11-19 15:08:55 DEBUG ConfigurationManager:76 - Updating [reloadXmlConfiguration], current value is [true], new value [true]
+2015-11-20 14:27:08 DEBUG HelloWorldAction:17 - Debug: password = password1
+2015-11-20 14:27:22 DEBUG HelloWorldAction:21 - Debug: encryptedPassword = s+wHMgRtRaSoGS36UxIDhg==
+
+2015-11-20 14:27:25 DEBUG HelloWorldAction:25 - Debug: unEncryptedPassword = password1
