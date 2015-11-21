@@ -3,4 +3,8 @@
 <fullyQualifiedTypeName name="encryption.AES"/>
 <fullyQualifiedTypeName name="org.mindrot.jbcrypt.BCrypt"/>
 <fullyQualifiedTypeName name="cipher.CipherUtils"/>
+<fullyQualifiedTypeName name="java.util.Arrays"/>
+<fullyQualifiedTypeName name="java.util.Collections"/>
+<fullyQualifiedTypeName name="deck.cards.DeckOfCards"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
 </qualifiedTypeNameHistroy>
