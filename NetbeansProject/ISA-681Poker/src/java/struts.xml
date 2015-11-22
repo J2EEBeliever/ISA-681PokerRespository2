@@ -18,12 +18,10 @@
         <result-type name="json" class="org.apache.struts2.json.JSONResult"/>
     </result-types>
     
-<action class="INFS740.UsersSelectAction" method="execute" name="UserselectActionJSON">
+<action class="ISA681Poker.jsonGetHand" method="execute" name="GetHandJSON">
 <result type="json">
 </result></action>
-<action class="INFS740.jsonGetTransactions" method="execute" name="GetTransactionsJSON">
-<result type="json">
-</result></action>
+
 
 
 

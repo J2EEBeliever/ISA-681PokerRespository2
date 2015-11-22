@@ -182,10 +182,10 @@ public class Card {
         }
     }
     
-    public int getCardNum()
-    {
-        return cardNum;
-    }
+  //  public int getCardNum()
+  //  {
+  //      return cardNum;
+  //  }
     
     public String getCardSuit()
     {

@@ -5,8 +5,7 @@
  */
 package ISA681.CardDeck;
 
-import java.util.ArrayList;
-import java.util.List;
+import java.util.Collections;
 import java.util.Stack;
 
 /**
@@ -14,7 +13,7 @@ import java.util.Stack;
  * @author b1wolt
  */
 public class DeckOfCards {
-    private Stack<Card> deck;
+    private final Stack<Card> deck = new Stack<>();
     
     public DeckOfCards()
     {
@@ -29,20 +28,7 @@ public class DeckOfCards {
     public void shuffle()
     {
        
-        List<Card> Listdeck = new ArrayList<>(deck);
-      deck = new Stack<>();
-        
-        for (int i = 0; i<52;i++)
-        {
-          
-            int slot = 0 + (int)(Math.random() * ((((52 - i) -1) - 0) + 1));
-            deck.push(Listdeck.get(slot));
-            Listdeck.remove(slot);
-          
-             
-        }
-        
-          deck.addAll(Listdeck);
+       Collections.shuffle(deck);
     }
     
     public Card draw()
