@@ -29,76 +29,76 @@ import org.apache.struts2.convention.annotation.Result;
  */
 public class jsonGetHand extends ActionSupport
 {
-    private final List<Card>Hand;
-    final static Logger log = Logger.getLogger(HelloWorldAction.class);
-    public jsonGetHand()
-{
-    
-    pokerHands pokerHands = new pokerHands();
-    DeckOfCards deck = new DeckOfCards();
-    deck.shuffle();
-    List<Card> Hand1 = new ArrayList<>();
-    List<Card> Hand2 = new ArrayList<>();
-    deck.draw();
-    for (int i = 0; i < 5; i++)
-    {
-        Hand1.add(deck.draw());
-        Hand2.add(deck.draw());
-    }
+	private final List<Card>Hand;
+	final static Logger log = Logger.getLogger(HelloWorldAction.class);
+	public jsonGetHand()
+	{
 
-    pokerHands.setDeckOfCards(deck);
-    pokerHands.setPlayer1Hand1(Hand1);
-    pokerHands.setPlayer2Hand2(Hand2);
-     NameCoder code = new XmlFriendlyNameCoder("_-", "_");
-       XStream xstream = new XStream(new KXml2DomDriver(code));
-       
-     BufferedWriter writer = null;
-     try
-     {
-          File logFile = new File("/Users/b1wolt/cardXML.xml");
+		pokerHands pokerHands = new pokerHands();
+		DeckOfCards deck = new DeckOfCards();
+		deck.shuffle();
+		List<Card> Hand1 = new ArrayList<>();
+		List<Card> Hand2 = new ArrayList<>();
+		deck.draw();
+		for (int i = 0; i < 5; i++)
+		{
+			Hand1.add(deck.draw());
+			Hand2.add(deck.draw());
+		}
 
-            // This will output the full path where the file will be written to...
-            System.out.println(logFile.getCanonicalPath());
+		pokerHands.setDeckOfCards(deck);
+		pokerHands.setPlayer1Hand1(Hand1);
+		pokerHands.setPlayer2Hand2(Hand2);
+		NameCoder code = new XmlFriendlyNameCoder("_-", "_");
+		XStream xstream = new XStream(new KXml2DomDriver(code));
 
-            writer = new BufferedWriter(new FileWriter(logFile));
-            writer.write(xstream.toXML(pokerHands));
-     }
-     catch (Exception e)
-     {
-         log.error(e);
-     }
-     finally {
-            try {
-                // Close the writer regardless of what happens...
-                writer.close();
-            } catch (Exception e) 
-            {
-                log.error(e);
-            }
-            }
-       
-    Hand = pokerHands.GetPlayer1Hand();
-   
-}
-    
-       @Actions( {
-    @Action(value = "/jsontable", results = {
-      @Result(name = "success", type = "json")
-    })
-  })
-        @Override
-  public String execute()
-  {
-      return SUCCESS;
-       
-  }
-  
-  public List<Card> getHand()
-  {
-      return Hand;
-  }
-  
-  
-    
-    
+		BufferedWriter writer = null;
+		try
+		{
+			File logFile = new File("/Users/b1wolt/cardXML.xml");
+
+			// This will output the full path where the file will be written to...
+			System.out.println(logFile.getCanonicalPath());
+
+			writer = new BufferedWriter(new FileWriter(logFile));
+			writer.write(xstream.toXML(pokerHands));
+		}
+		catch (Exception e)
+		{
+			log.error(e);
+		}
+		finally {
+			try {
+				// Close the writer regardless of what happens...
+				writer.close();
+			} catch (Exception e) 
+			{
+				log.error(e);
+			}
+		}
+
+		Hand = pokerHands.GetPlayer1Hand();
+
+	}
+
+	@Actions( {
+		@Action(value = "/jsontable", results = {
+				@Result(name = "success", type = "json")
+		})
+	})
+	@Override
+	public String execute()
+	{
+		return SUCCESS;
+
+	}
+
+	public List<Card> getHand()
+	{
+		return Hand;
+	}
+
+
+
+
 }
