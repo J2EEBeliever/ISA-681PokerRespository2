@@ -34,7 +34,7 @@
         to.html('');
         // clear (just a demo)
         for (i = 0; i < l; i++) {
-            to.append(this.cards[i].getHTML());
+            to.append(this.cards[i].getHTML(i));
         }
     };
     /**
@@ -42,7 +42,7 @@
      * 
      * @return string The HTML block to show the card
      */
-    playingCards.card.prototype.getHTML = function() {
+    playingCards.card.prototype.getHTML = function(arrayLocation) {
         if (this.html) {
             return this.html;
         }
@@ -71,7 +71,8 @@
         if (this.rank === "N") {
             txt = this.rankString.split('').join('<br />');
         }
-        var strBuild = ['<div class="playingCard"><div class="front ', this.colorCls, '"><div class="corner">', txt, '<br />', this.suitCode, '</div>'];
+        var strBuild = ['<div class="playingCard" id="' + arrayLocation + '"><div class="front ', this.colorCls, '"><div class="corner">', txt, '<br />', this.suitCode, '</div>'];
+     
         strBuild = strBuild.concat(this.buildIconHTML());
         strBuild = strBuild.concat('<div class="corner cornerBR flip">', txt, '<br />', this.suitCode, '</div></div></div>');
         this.html = strBuild.join('');

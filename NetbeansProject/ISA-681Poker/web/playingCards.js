@@ -53,25 +53,36 @@ if (Array.indexOf === undefined) {
      * initializer - builds the deck
      */
     playingCards.prototype.init = function() {
+        var hand = [];
+   $.ajax({
+
+    url : 'http://localhost:8080/ISA-681Poker/ajax/GetHandJSON',
+    type : 'GET',
+    async: false,
+    data : {
+        'numberOfWords' : 10
+    },
+    dataType:'json',
+    success : function(data) {              
+        hand = data;
+    },
+    error : function(request,error)
+    {
+        alert("Request: "+JSON.stringify(request));
+    }
+});
+        
         this.cards = [];
-        var o = this.conf,
-            l,i,s,r,j;
+        
         // populate draw pile
-        for (i = 0; i < o.decks; i++) {
-            // standard
-            for (s in o.suits) {
-                for (r in o.ranks) {
+        for (i = 0; i < 5; i++) {
+          
                     l = this.cards.length;
-                    this.cards[l] = new playingCards.card(r, o.ranks[r], s, o.suits[s]);
+                    
+                    this.cards[l] = new playingCards.card(hand.hand[i].rank, hand.hand[i].rankString, hand.hand[i].suit, hand.hand[i].suitString);
                 }
-            }
-            // jokers
-            for (j = 0; j < o.jokers; j++) {
-                l = this.cards.length;
-                // suit will always be 1 or 2
-                this.cards[l] = new playingCards.card("N", o.jokerText, (j % 2) + 1, '');
-            }
-        }
+          
+        
     };
     // TODO: create more methods:
     // playingCards.prototype.order (set to out-of-box ordering)
@@ -84,6 +95,13 @@ if (Array.indexOf === undefined) {
     playingCards.prototype.draw = function() {
         return this.cards.length > 0 ? this.cards.pop() : null;
     };
+    
+    playingCards.prototype.pickCard = function(CardNum) {
+        var card = this.cards[CardNum];
+        this.cards.splice(CardNum, 1);
+        return card;
+    };
+    
     /**
      * add a card to the top of the deck
      */

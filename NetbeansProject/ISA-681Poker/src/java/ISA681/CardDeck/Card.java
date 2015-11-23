@@ -12,13 +12,14 @@ import org.apache.commons.math3.exception.OutOfRangeException;
  * @author b1wolt
  */
 public class Card {
-    private int cardNum;
+    //private int cardNum;
     private String Rank;
     private String Suit;
+
     
     public Card(int cardNum)
     {
-        this.cardNum = cardNum;
+       // this.cardNum = cardNum;
         switch (cardNum)
                 {
             case 1:  Suit = "S";
@@ -187,7 +188,7 @@ public class Card {
   //      return cardNum;
   //  }
     
-    public String getCardSuit()
+    public String getSuit()
     {
         return Suit;
     }
@@ -195,6 +196,58 @@ public class Card {
     public String getRank()
     {
         return Rank;
+    }
+    
+    public String getSuitString()
+    {
+        String returnVal = "";
+        switch(Suit)
+        {
+            case "S": returnVal = "Spades";
+                break;
+            case "D": returnVal = "Diamonds";
+                break;
+            case "C": returnVal = "Clubs";
+                break;
+            case "H": returnVal = "Hearts";
+                break;
+        }
+        return returnVal;
+    }
+    
+     public String getRankString()
+    {
+        String returnVal = "";
+        switch(Rank)
+        {
+            case "2": returnVal = "Two";
+                break;
+            case "3": returnVal = "Three";
+                break;
+            case "4": returnVal = "Four";
+                break;
+            case "5": returnVal = "Five";
+                break;
+            case "6": returnVal = "Six";
+                break;
+            case "7": returnVal = "Seven";
+                break;
+            case "8": returnVal = "Eight";
+                break;
+            case "9": returnVal = "Nine";
+                break;
+            case "10": returnVal = "Ten";
+                break;
+            case "J": returnVal = "Jack";
+                break;
+            case "Q": returnVal = "Queen";
+                break;
+            case "K": returnVal = "King";
+                break;
+            case "A": returnVal = "Ace";
+                break;
+        }
+        return returnVal;
     }
     
 }
